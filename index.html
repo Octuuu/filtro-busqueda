@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería Avanzada de Imágenes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="filters">
+      <input type="text" id="search" placeholder="Buscar por título, descripción..." class="search-bar" />
+      <select title="option" id="categoryFilter" class="category-filter">
+        <option value="">Filtrar por categoría</option>
+        <option value="Gaming">Gaming</option>
+        <option value="Office">Office</option>
+        <option value="Design">Design</option>
+        <option value="Portable">Portable</option>
+        <option value="Creative">Creative</option>
+      </select>
+    </div>
+    <div id="gallery" class="gallery"></div>
+    <div class="pagination">
+      <button id="prev" class="page-btn">Anterior</button>
+      <button id="next" class="page-btn">Siguiente</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
