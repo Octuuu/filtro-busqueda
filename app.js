@@ -105,3 +105,6 @@ document.getElementById('search').addEventListener('input', filterImages);
 document.getElementById('categoryFilter').addEventListener('change', filterImages);
 
 filterImages();
+
+
+
